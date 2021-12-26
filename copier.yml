@@ -29,6 +29,6 @@ python_version: 3.8.12
 
 python_requires:
   type: str
-  default: ">=3.7.3"
+  default: ">=3.7"
 
 pytest: True
