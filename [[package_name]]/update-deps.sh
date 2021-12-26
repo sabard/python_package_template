@@ -1,6 +1,9 @@
 #!/bin/sh
 set -v
 
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
 pyenv activate [[package_name]]
 
 pip install --upgrade setuptools pip
