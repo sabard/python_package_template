@@ -1,0 +1,11 @@
+# Changes here will be overwritten by Copier
+_commit: 5727b8d
+_src_path: .
+author_email: s@bardasgupta.com
+author_first_name: Sabar
+author_full_name: Sabar Dasgupta
+author_last_name: Dasgupta
+package_name: python_package_template
+pytest: true
+python_requires: '>=3.7'
+python_version: 3.8.12
