@@ -14,5 +14,5 @@ setup(
     author_email='s@bardasgupta.com',
     install_requires=[],
     packages=['python_package_template'],
-    python_requires='>=3.7.3'
+    python_requires='>=3.7'
 )
