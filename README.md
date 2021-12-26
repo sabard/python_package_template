@@ -1,4 +1,4 @@
-# python-package-template
+# python_package_template
 Template to create Python packages
 
 ## Initial Setup
