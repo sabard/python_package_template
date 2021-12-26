@@ -1,7 +1,6 @@
 #!/bin/sh
-set -v
 
-pyenv activate [[package_name]]
+pyenv activate python_package_template
 
 pip install --upgrade setuptools pip
 pip install wheel pip-tools
