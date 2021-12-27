@@ -5,7 +5,7 @@ _envops:
   keep_trailing_newline: true
 
 _tasks:
-  - "curl https://raw.githubusercontent.com/github/gitignore/main/Python.gitignore > python_package_template/.gitignore"
+  - "curl https://raw.githubusercontent.com/github/gitignore/main/Python.gitignore > .gitignore"
 
 package_name: python_project
 
