@@ -1,4 +1,4 @@
-# [[package_name]]
+# `[[package_name]]`
 Template to create Python packages
 
 ## Initial Setup
@@ -14,6 +14,17 @@ Add new dependencies to `requirements.in` and then run:
 ```bash
 ./update-deps.sh
 ```
+
+[% if pytest -%]
+## Test
+
+`[[package_name]]` uses pytest to run unit tets:
+
+```bash
+./test.sh
+```
+
+[% endif -%]
 
 ## Local Usage
 
