@@ -3,6 +3,6 @@ repos:
       hooks:
           - id: forbidden-files
             name: forbidden files
-            entry: found copier update rejection files; review them and remove them
+            entry: found copier update rejection files; please review
             language: fail
             files: "\\.rej$"
