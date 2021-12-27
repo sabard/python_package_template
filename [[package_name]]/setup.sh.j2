@@ -6,3 +6,5 @@ eval "$(pyenv virtualenv-init -)"
 pyenv install [[python_version]] -s
 pyenv virtualenv [[python_version]] [[package_name]]
 ./update-deps.sh
+
+pre-commit install
