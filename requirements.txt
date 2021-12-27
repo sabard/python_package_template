@@ -8,10 +8,20 @@ attrs==21.2.0
     # via
     #   jsonschema
     #   pytest
+backports.entry-points-selectable==1.1.1
+    # via virtualenv
+cfgv==3.3.1
+    # via pre-commit
 colorama==0.4.4
     # via copier
 copier==5.1.0
     # via -r requirements.in
+distlib==0.3.4
+    # via virtualenv
+filelock==3.4.2
+    # via virtualenv
+identify==2.4.0
+    # via pre-commit
 importlib-resources==5.4.0
     # via jsonschema
 iniconfig==1.1.1
@@ -22,18 +32,24 @@ jsonschema==4.3.2
     # via -r requirements.in
 markupsafe==2.0.1
     # via jinja2
+nodeenv==1.6.0
+    # via pre-commit
 packaging==20.9
     # via
     #   copier
     #   pytest
 pathspec==0.8.1
     # via copier
+platformdirs==2.4.1
+    # via virtualenv
 pluggy==1.0.0
     # via pytest
 plumbum==1.7.2
     # via
     #   -r requirements.in
     #   copier
+pre-commit==2.16.0
+    # via -r requirements.in
 py==1.11.0
     # via pytest
 pydantic==1.8.2
@@ -47,14 +63,21 @@ pytest==6.2.5
 pyyaml==5.4.1
     # via
     #   copier
+    #   pre-commit
     #   pyyaml-include
 pyyaml-include==1.2.post2
     # via copier
 regex==2020.11.13
     # via copier
+six==1.16.0
+    # via virtualenv
 toml==0.10.2
-    # via pytest
+    # via
+    #   pre-commit
+    #   pytest
 typing-extensions==4.0.1
     # via pydantic
+virtualenv==20.10.0
+    # via pre-commit
 zipp==3.6.0
     # via importlib-resources

@@ -1,4 +1,5 @@
 copier
 jsonschema
 plumbum
+pre-commit
 pytest
