@@ -1,4 +1,5 @@
 #!/bin/sh
+set -ev
 
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
